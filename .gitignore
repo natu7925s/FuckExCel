@@ -1,0 +1,24 @@
+# Rust/Cargo関連
+
+# ビルド成果物
+/target/
+
+# Cargoのロックファイル（必要な場合は除外してね）  
+# Cargo.lock
+
+# 一時ファイル
+**/*.rs.bk
+
+# IDEやエディタ固有の設定ファイル（必要に応じて追加）
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# バイナリファイル（もし誤って入れたくないなら）
+*.exe
+*.dll
+*.so
+*.dylib
+
